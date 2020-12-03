@@ -7,7 +7,6 @@ const wordSearch = (letters, word) => {
             string += letters[columns][r];
         }
         verticalJoin.push(string);
-        console.log(verticalJoin)
     }
     if(horizontalJoin.includes(word) || verticalJoin.includes(word)){
         return true;
